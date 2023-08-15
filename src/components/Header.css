@@ -1,0 +1,36 @@
+.header {
+  color: aliceblue;
+  display: flex;
+  max-width: 100%;
+  min-height: 70px;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 2px 4px 6px rgba(194, 192, 192, 0.25);
+}
+.mainHeader {
+  margin-left: 20%;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.linkHeader {
+  text-align: end;
+  padding: 0 10px;
+  border: 2px;
+  margin-right: 20%;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px;
+  flex-wrap: wrap-reverse;
+}
+input {
+  border: 0;
+  padding: 5px;
+  max-height: 30px;
+  margin-top: 20px;
+}

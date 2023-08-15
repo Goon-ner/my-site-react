@@ -1,0 +1,15 @@
+.runningPage {
+  display: flex;
+  margin: auto 20%;
+  text-align: justify;
+}
+.runningText {
+  margin: 10px;
+}
+.runningImages {
+  margin: 10px;
+  min-width: 50%;
+}
+.pageNameRunning {
+  margin-top: 20px;
+}

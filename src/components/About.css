@@ -1,0 +1,15 @@
+.aboutPage {
+  display: flex;
+  margin: auto 20%;
+  text-align: justify;
+}
+.aboutText {
+  margin: 10px;
+}
+.aboutImages {
+  margin: 10px;
+  min-width: 50%;
+}
+.pageNameAbout {
+  margin-top: 20px;
+}
