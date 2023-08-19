@@ -1,0 +1,32 @@
+form {
+  margin: 30px auto;
+}
+input {
+  display: block;
+  border: 0;
+  padding: 5px;
+  max-height: 30px;
+  margin: 10px auto;
+}
+textarea {
+  display: block;
+  margin: 10px auto;
+  border: 0;
+  padding: 5px;
+  max-height: 30px;
+  margin-top: 20px;
+}
+.commentButton {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.nameInput {
+  min-width: 300px;
+}
+.commentInput {
+  width: 400px;
+  min-height: 70px;
+  margin: auto;
+  border-radius: 10px;
+}

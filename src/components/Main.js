@@ -1,7 +1,19 @@
+import { useState } from 'react'
 import './Main.css'
 import image1 from '../Images/Me.jpg'
+import Comments from './Comments'
+import CommentForm from './CommentForm'
 
-const Main = () => {
+function Main() {
+  const [comment, setComment] = useState([])
+
+  const commentChange = (text) => {
+    const newComment = {
+      name: text.name,
+      text: text.comment,
+    }
+    setComment([...comment, newComment])
+  }
   return (
     <>
       <div className="pageNameMain">
@@ -58,6 +70,10 @@ const Main = () => {
         <div className="pageImages">
           <img src={image1} alt="Фото" title="Портрет чб" width="100%" />
         </div>
+      </div>
+      <div className="commentForm">
+        <CommentForm addChange={commentChange} />
+        <Comments addComment={comment} />
       </div>
     </>
   )
