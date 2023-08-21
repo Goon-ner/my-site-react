@@ -19,7 +19,12 @@ textarea {
 .commentButton {
   padding: 5px;
   margin: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: aliceblue;
+  padding: 10px;
 }
 .nameInput {
   min-width: 300px;
