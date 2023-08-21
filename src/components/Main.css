@@ -1,7 +1,16 @@
-.mainPage {
-  display: flex;
-  margin: auto 20%;
-  text-align: justify;
+@media (min-width: 1050px) {
+  .mainPage {
+    display: flex;
+    margin: auto 20%;
+    text-align: justify;
+  }
+}
+@media (max-width: 1049px) {
+  .mainPage {
+    display: flex;
+    margin: auto 10px;
+    text-align: justify;
+  }
 }
 .pageText {
   margin: 10px;

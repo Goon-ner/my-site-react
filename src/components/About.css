@@ -1,7 +1,16 @@
-.aboutPage {
-  display: flex;
-  margin: auto 20%;
-  text-align: justify;
+@media (min-width: 1050px) {
+  .aboutPage {
+    display: flex;
+    margin: auto 20%;
+    text-align: justify;
+  }
+}
+@media (max-width: 1049px) {
+  .aboutPage {
+    display: flex;
+    margin: auto 10px;
+    text-align: justify;
+  }
 }
 .aboutText {
   margin: 10px;

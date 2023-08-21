@@ -1,7 +1,16 @@
-.runningPage {
-  display: flex;
-  margin: auto 20%;
-  text-align: justify;
+@media (min-width: 1050px) {
+  .runningPage {
+    display: flex;
+    margin: auto 20%;
+    text-align: justify;
+  }
+}
+@media (max-width: 1049px) {
+  .runningPage {
+    display: flex;
+    margin: auto 10px;
+    text-align: justify;
+  }
 }
 .runningText {
   margin: 10px;
